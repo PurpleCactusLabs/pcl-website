@@ -15,7 +15,6 @@ Deployed on Vercel, auto-deploys from GitHub `main`.
 - `notion-gmail-sidebar/index.html` — product landing page (route: `/notion-gmail-sidebar`)
 - `success/index.html` — post-purchase success page
 - `privacy.html`, `terms.html` — legal pages (routes: `/privacy`, `/terms`)
-- `verify.js` — Puppeteer screenshot script for visual QA (`node verify.js`)
 - `vercel.json` — URL rewrites (clean routes without `.html`)
 
 Assets in root: `PCL_neon_logo_dark.svg`, `PCL_logo_white.svg`, `favicon.svg`, `hero.png`, `og-image.png`, `og-image-sidebar.png`, `PCL_US Dot Map-reduced size.svg`
