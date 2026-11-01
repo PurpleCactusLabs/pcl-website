@@ -3,7 +3,7 @@
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
 # PCL Website — Project Rules
-# These rules apply specifically to the PurpleCactusLabs/website repo.
+# These rules apply specifically to the PurpleCactusLabs/pcl-website repo.
 # Global rules in ~/.claude/CLAUDE.md and ~/.claude/rules/ also apply.
 
 ## What This Repo Is
@@ -51,19 +51,13 @@ Nav (`.nav`, z-index: 10) is sticky inside `.content`. The nav logo teleports: a
 6. Scroll-triggered `IntersectionObserver` reveals sections as user scrolls
 
 ## Preview
-Max uses VS Code with Microsoft Live Preview extension.
-He previews changes himself — NEVER call preview_* tools, never start a server.
+Plain static HTML: there is no dev server to start. Max opens the page in VS Code's Microsoft Live
+Preview extension, so after a visible change, name the file and say what to look at. Never call
+`preview_*` tools.
 
 ## Committed & Locked — Do Not Modify
 - Footer CTA tab ("Like this website?") — committed, working, do not touch
 
 ## Copy Rules
-- Never remove body copy without explicit instruction
-- Never rewrite or simplify existing copy without being asked
-- Pillar headlines: punchy, one-line, self-evident — never academic
-
-## Git
-Never run git commands. When committing, provide two blocks for GitHub Desktop:
-1. Summary — one-line title
-2. Description — bullet points
-Stop there.
+Brand and copy rules are in the global `pcl/brand.md`. In addition: never rewrite or simplify existing
+copy without being asked.
